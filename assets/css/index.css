@@ -17,4 +17,7 @@ header {
 header .navbar {
   display: flex;
   background-color: #777;
+  padding: 0 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
 }

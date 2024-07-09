@@ -12,12 +12,42 @@ body {
 
 header {
   background-color: #fff;
+  height: 80px;
 }
 
 header .navbar {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: #777;
   padding: 0 2rem;
   max-width: 1200px;
   margin: 0 auto;
+}
+
+header .navbar .navbrand {
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #333;
+}
+
+header .navbar .navlist {
+  list-style: none;
+
+  display: flex;
+  align-items: center;
+  gap: 31px;
+}
+
+header .navbar .navlist .nav-itens a {
+  text-decoration: none;
+  color: #333;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+header .navbar .navlist .nav-itens a:hover {
+  color: #777;
+  transition: color .3s;
 }
